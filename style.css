@@ -1,0 +1,64 @@
+body
+{
+    background-image: url("math-background.jpg");
+	background-size: cover;
+	background-position:center;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+	.login_div1
+	{
+		margin-top: 80px;
+		font-style: italic;
+		background: white;
+		font-family: script;
+		font-weight: bolder;
+		font-size: 500;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+
+#player1_login , #player2_login
+{
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 15px;
+}
+
+#player1_login:hover{
+	background-color: aliceblue;
+}
+#player2_login:hover{
+	background-color: aliceblue;
+}
+
+#output{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+h4{
+	color: white;
+}
+
+#player1_score , #player2_score{
+	color: white;
+}
+
+#question , #answer{
+	color: white;
+}
+
+h1{
+	color:white;
+	font-size: 70px;
+}
